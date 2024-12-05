@@ -453,7 +453,8 @@ section {
 }
 
 .pq-bg-map iframe {
-  height: 700px;
+  /* height: 700px; */
+  height: 530px;
   width: 100%;
   border: 0;
 }
@@ -6918,7 +6919,7 @@ input.pq-bg-transparent::placeholder {
   padding: 0 30px;
 }
 
-.pq-form-box {
+/* .pq-form-box {
   width: 70%;
   padding: 60px 45px;
   margin: 0 auto;
@@ -6928,7 +6929,7 @@ input.pq-bg-transparent::placeholder {
   background: var(--white-color);
   position: relative;
   z-index: 1;
-}
+} */
 
 .pq-form3-img {
   width: 75%;
