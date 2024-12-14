@@ -6175,7 +6175,7 @@ Process Step
   width: 100%;
   height: 100%;
   opacity: 1;
-  background: url(../images/process/bg.png);
+  /* background: url(../images/process/bg.png); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7983,6 +7983,15 @@ Custom Css
 #pq-loading-center img{
   width: 250px;
   height: 100px ;
+}
+@media screen and (max-width:550px) {
+  /* #pq-loading-center img{
+    width: 230px;
+    height: 80px ;
+  } */
+  .carousel-item img{
+    height: 250px;
+  }
 }
 /* 
 .carousel-inner {
