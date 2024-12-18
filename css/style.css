@@ -3253,7 +3253,7 @@ Section Title
   margin: 5px 0 0;
 }
 
-.pq-section.pq-style-1 .pq-section-sub-title {
+/* .pq-section.pq-style-1 .pq-section-sub-title {
   letter-spacing: 0.04em;
   font-family: var(--title-fonts);
   font-weight: 600;
@@ -3263,6 +3263,23 @@ Section Title
   text-transform: uppercase;
   color: var(--primary-color);
   background: #d3e9fb;
+  padding: 4px 8px;
+  margin: 0 0 10px;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+} */
+.pq-section.pq-style-1 .pq-section-sub-title {
+  letter-spacing: 0.04em;
+  font-family: var(--title-fonts);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  position: relative;
+  text-transform: uppercase;
+  color: #f4f6f9;
+  background: #0a5689;
   padding: 4px 8px;
   margin: 0 0 10px;
   display: inline-block;
