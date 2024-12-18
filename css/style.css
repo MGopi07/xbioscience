@@ -3211,7 +3211,9 @@ Section Title
   /* margin-bottom: 60px; */
   margin-bottom: 20px;
 }
-
+.pq-section.pq-style-1.text-center.uqality_assurance{
+  padding: 0 5em;
+}
 .pq-section.pq-style-1 .pq-section-sub-title {
   letter-spacing: 0.04em;
   font-family: var(--title-fonts);
@@ -8165,67 +8167,74 @@ Custom Css
   opacity: 1;
   transform: scale(1);
 } */
-.shadow-sm.one {
-  background-color: #90b6df;
-}
+
 .shadow-sm.one .card-body p{
-color: white;
-font-size: 18px;
+
+font-size: 16px;
 font-weight: 600;
 }
-.shadow-sm.two {
-  background-color: #c77c72;
-}
+
 .shadow-sm.two .card-body p{
-  color: white;
-  font-size: 18px;
+ 
+  font-size: 16px;
   font-weight: 600;
   }
-.shadow-sm.three {
-  background-color: #b78ed8;
-}
+
 .shadow-sm.three .card-body p{
-  color: white;
-  font-size: 18px;
+
+  font-size: 16px;
   font-weight: 600;
   }
-.shadow-sm.four {
-  background-color: #e484d4;
-}
+
 .shadow-sm.four .card-body p{
-  color: white;
-  font-size: 18px;
+ 
+  font-size: 16px;
   font-weight: 600;
   }
-.shadow-sm.five {
-  background-color: #82e9d8a1;
-}
+
 .shadow-sm.five .card-body p{
-  /* color: white; */
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   }
-.shadow-sm.six {
-  background-color: #deec8d;
-}
+
 .shadow-sm.six .card-body p{
-  /* color: white; */
-  font-size: 18px;
+
+  font-size: 16px;
   font-weight: 600;
   }
-.shadow-sm.seven {
-  background-color: #f083b0;
-}
+
 .shadow-sm.seven .card-body p{
-  color: white;
-  font-size: 18px;
+
+  font-size: 16px;
   font-weight: 600;
   }
-.shadow-sm.eight {
-  background-color: #93d2e5;
-}
+
 .shadow-sm.eight .card-body p{
-  color: white;
-  font-size: 18px;
+ 
+  font-size: 16px;
   font-weight: 600;
   }
+  .one {
+    background-color: #f9fbe7; /* Light green */
+ }
+ .two {
+    background-color: #e3f2fd; /* Light blue */
+ }
+ .three {
+    background-color: #fff3e0; /* Light orange */
+ }
+ .four {
+    background-color: #ede7f6; /* Light purple */
+ }
+ .five {
+    background-color: #fce4ec; /* Light pink */
+ }
+ .six {
+    background-color: #e8f5e9; /* Pale green */
+ }
+ .seven {
+    background-color: #ffebee; /* Light red */
+ }
+ .eight {
+    background-color: #f3e5f5; /* Lavender */
+ }
